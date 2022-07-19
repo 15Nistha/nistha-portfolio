@@ -1,0 +1,206 @@
+.res{
+    padding-top: 40px;
+}
+
+.resume{
+    margin: 70px;
+    padding: 50px;
+    background-color: rgba(141, 145, 145, 0.1);
+    box-shadow: 0px 0px 15px;
+    margin-top: 100px;
+    transform: translatey(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+      /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+      transform: translatey(0px);
+    }
+    50% {
+      /* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+      transform: translatey(20px);
+    }
+    100% {
+      /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+      transform: translatey(0px);
+    }
+  }
+
+.resume h2{
+    color: aliceblue;
+    border-bottom: 2px solid rgb(17, 148, 72);
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.resume p{
+    font-size: 17px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+.resumedetails{
+    margin-top: 40px;
+    display: flex;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.div1{
+    width: 50%;
+}
+
+.div2{
+    width: 50%;
+}
+
+.summary{
+    font-size: 24px;
+    color: #2fcc83;
+    margin-bottom: 40px;
+}
+
+.resumehead ul{
+    list-style: none;
+    margin-top: -37px;
+}
+.resumehead ul li{
+    font-size: 20px;
+    color: aliceblue;
+}
+.resumehead ul li::before{
+    content:'\2745';
+    font-size:45px;
+    color: rgb(52, 221, 221); 
+    margin-left: -40px;
+    transition-property: transform;
+}
+
+
+.uldetail li::before{
+    content:'\203A';
+    font-size: 30px;
+    color: #2fcc83; 
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.uldetail{
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -21px;
+    border-left: 4px dashed rgb(189, 189, 192);
+}
+
+.uldetail li{
+    padding: 8px;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.education{
+    font-size: 24px;
+    color: #2fcc83;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.bach{
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -21px;
+    border-left: 4px dashed rgb(189, 189, 192);
+}
+
+.bach li::before{
+    content:'\203A';
+    font-size: 30px;
+    color: #2fcc83; 
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.bach li{
+    padding: 8px;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.bach li span{
+    font-weight: bold;
+}
+
+.bach1{
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: -30px;
+    margin-left: -22px;
+    border-left: 4px dashed rgb(189, 189, 192);
+}
+
+.bach1 li::before{
+    content:'\203A';
+    font-size: 30px;
+    color: #2fcc83; 
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.bach1 li{
+    padding: 8px;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 1024px ) {
+    .resume{
+        margin-top: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 100px 15px 20px 15px;
+        animation: none;
+        overflow: hidden;
+        word-wrap: break-word;
+        
+    }
+    .res{
+        padding-top: 60px;
+        margin: 0px 20px 0px 20px;
+        
+    }
+    .resume p{
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    .resumedetails{
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 1px;
+        
+    }
+
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+   
+}
