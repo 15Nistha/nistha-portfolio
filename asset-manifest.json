@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nistha-portfolio/static/css/main.c013be9b.css",
+    "main.js": "/nistha-portfolio/static/js/main.a5cf984b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/nistha-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/back5.jpg": "/nistha-portfolio/static/media/back5.c390b6600c55d29c45ec.jpg",
+    "static/media/profile3.jpg": "/nistha-portfolio/static/media/profile3.3543e8ee7fef5160ebb1.jpg",
+    "index.html": "/nistha-portfolio/index.html",
+    "main.c013be9b.css.map": "/nistha-portfolio/static/css/main.c013be9b.css.map",
+    "main.a5cf984b.js.map": "/nistha-portfolio/static/js/main.a5cf984b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/nistha-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c013be9b.css",
+    "static/js/main.a5cf984b.js"
+  ]
+}
